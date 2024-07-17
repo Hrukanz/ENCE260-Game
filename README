@@ -1,0 +1,28 @@
+Mothership Dogfight
+
+Tim Lindbom (tli89) & Haruka Yamamoto (hya73)
+
+
+Objective:
+Be the first person to destroy the enemy's mothership.
+
+Setup:
+Position the two FunKits so that the IR transmitter is directly in front of the other IR receiver.
+Call 'make function' on the terminal to begin the game.
+
+
+Playing:
+To begin, the player must press the button to start game. They will then be given a fleet of motherships to choose from. 
+Use the navswitch (NORTH and SOUTH inputs) to cycle the motherships in the fleet. To select the mothership push in the navswitch. 
+Once both motherships have been selected, the index of the ship you have selected will be sent to the other FunKit and you will receive the opponent's. 
+The two players will then race to shoot every space the opposing mothership occupies by moving a missile around the LED matrix. 
+The player fires the missile by clicking in the navswitch. Once the shot has been fired a hit will be indicated by a blue LED lighting. 
+A player can check where they have fired by clicking in the button. A blinking light indicates a missed shot and a solid light indicates a hit ship. 
+With another click of the button, the player will be able to aim their missile again. 
+Once the ship has been destroyed, a winning message will scroll across the matrix and a losing message will scroll across the opposing matrix.
+
+
+Need To Know:
+- Each ship contains 15 sections
+- All sections of every mothership are connected with an adjacent section of the ship (no part of the ship is connected with a diagonal)
+- If the missile is directly against the side of the led matrix the player can move the navswitch in the direction of the wall to instantly move to the other side of the matrix.
